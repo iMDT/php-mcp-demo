@@ -1,0 +1,13 @@
+{
+    "name": "imdt/mcp-php",
+    "description": "simple mcp server",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Imdt\\McpPhp\\": "src/"
+        }
+    },
+    "require": {
+        "php-mcp/server": "^3.3"
+    }
+}
