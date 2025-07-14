@@ -1,0 +1,16 @@
+# Diretórios comuns
+/vendor/
+
+# Arquivos do Composer
+composer.lock
+
+# Configurações do ambiente
+.env
+.env.*.php
+
+# IDEs e editores
+.idea/
+.vscode/
+.cursor/
+*.sublime-workspace
+*.sublime-project
