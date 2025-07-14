@@ -83,15 +83,16 @@ class McpElements
      *
      * @return array Lista de funcionários.
      */
-    #[McpTool(name: 'funcionarios')]
-    public function funcionarios(): array
+    #[McpTool(name: 'funcionariosImdt')]
+    public function funcionariosImdt(): array
     {
-        fwrite(STDERR, "Func 'funcionarios' chamada.\n");
+        fwrite(STDERR, "Func 'funcionariosImdt' chamada.\n");
 
         return [
             ['id' => 1, 'nome' => 'Tiago Jacobs', 'cargo' => 'owner'],
-            ['id' => 2, 'nome' => 'Henrique Schmidt', 'cargo' => 'Full stack'],
-            ['id' => 3, 'nome' => 'Fernanda Weiss', 'cargo' => 'UI/UX'],
+            ['id' => 2, 'nome' => 'Henrique Schmidt', 'cargo' => 'Full stack - SD and Wellmind'],
+            ['id' => 3, 'nome' => 'Fernanda Weiss', 'cargo' => 'Full stack - SD'],
+            ['id' => 4, 'nome' => 'Diego Benetti', 'cargo' => 'Full stack - Websites and SD'],
         ];
     }
 
